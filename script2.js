@@ -1,4 +1,4 @@
-const apiKey = "GET_YOUR_OWN_API_KEY";
+const apiKey = "4350449ce7495f8a3502f4548212f393";
 const searchBtn = document.querySelector(".search-btn");
 const input = document.querySelector(".input");
 const errorMsg = document.querySelector(".error-msg");
