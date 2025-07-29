@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-app-container shrink">
+      <div class="navbar">
+        <input type="text" class="input" placeholder="Enter the city name..." />
+        <div>
+          <button class="search-btn hover">Search</button>
+        </div>
+      </div>
+      <div id="initial-message" class="initial-message">
+        <p>Enter a city to get the weather forecast.</p>
+      </div>
+
+      <div class="error-msg">
+        <p class="error">Please enter a valid city name.</p>
+      </div>
+      <div class="main">
+        <div class="text-main">
+          <h2 class="city-name">London</h2>
+          <p class="date-time">Tuesday, July 29, 2025</p>
+          <div class="weather">
+            <img src="https://openweathermap.org/img/wn/04n.png" />
+            <div class="right-temp">
+              <h1 class="temp">17°C</h1>
+              <p class="stateweather">Overcast clouds</p>
+            </div>
+          </div>
+        </div>
+        <div class="stats-container">
+          <div class="box">
+            <h4 class="feels-like">Feels like</h4>
+            <p>17°C</p>
+          </div>
+          <div class="box">
+            <h4 class="humidity">Humidity</h4>
+            <p>17°C</p>
+          </div>
+          <div class="box">
+            <h4 class="Windspeed">Wind Speed</h4>
+            <p>17°C</p>
+          </div>
+          <div class="box">
+            <h4 class="pressure">Pressure</h4>
+            <p>17°C</p>
+          </div>
+          <div class="fivedays">
+            <h2>5-Day Forecast</h2>
+          </div>
+          <div class="forecast-container">
+            <div class="forecast-card">
+              <h4 id="day-1-name">Mon</h4>
+              <img src="" alt="weather icon" id="day-1-icon" />
+              <p>
+                <span id="day-1-high">22°</span>/<span id="day-1-low">17°</span>
+              </p>
+            </div>
+            <div class="forecast-card">
+              <h4 id="day-2-name">Tue</h4>
+              <img src="" alt="weather icon" id="day-2-icon" />
+              <p>
+                <span id="day-2-high">24°</span>/<span id="day-2-low">18°</span>
+              </p>
+            </div>
+            <div class="forecast-card">
+              <h4 id="day-3-name">Wed</h4>
+              <img src="" alt="weather icon" id="day-3-icon" />
+              <p>
+                <span id="day-3-high">23°</span>/<span id="day-3-low">16°</span>
+              </p>
+            </div>
+            <div class="forecast-card">
+              <h4 id="day-4-name">Thu</h4>
+              <img src="" alt="weather icon" id="day-4-icon" />
+              <p>
+                <span id="day-4-high">21°</span>/<span id="day-4-low">14°</span>
+              </p>
+            </div>
+            <div class="forecast-card">
+              <h4 id="day-5-name">Fri</h4>
+              <img src="" alt="weather icon" id="day-5-icon" />
+              <p>
+                <span id="day-5-high">20°</span>/<span id="day-5-low">13°</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
