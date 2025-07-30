@@ -2,7 +2,6 @@
 
 **Weather Now** is a sleek and responsive web app that shows real-time weather data and a 5-day forecast for any city in the world. Built with HTML, CSS, and JavaScript using the OpenWeatherMap API.
 
-![Screenshot](screenshot.png)
 
 ---
 
@@ -19,7 +18,7 @@
 
 ## 🚀 Live Demo
 
-👉 [Check out the live website](https://yourusername.github.io/weather-now/)
+👉 [Check out the live website](https://Upaldey.github.io/weather-now/)
 
 ---
 
